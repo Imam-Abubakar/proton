@@ -21,7 +21,7 @@ function HeroAbout() {
                         <div className="col-lg-8">
                             <div className="appie-about-page-content">
                                 <h3 className="title">
-                                    Porviding a required digital Solution.
+                                    Providing a required digital Solution.
                                 </h3>
                                 <p>
                                 We leverage the power of our gigantic database of barcodes and product data, sourced from big retailers and e-commerce sites all over the world, to bring you clear, useful information on any product you're looking to verify.

@@ -39,41 +39,7 @@ function Drawer({ drawer, action }) {
                                             id="home"
                                             className="menu-item-has-children active"
                                         >
-                                            <span className="menu-expand">
-                                                <i className="fa fa-angle-down"></i>
-                                            </span>
-                                            <a href="#">Home</a>
-                                            <ul
-                                                className="sub-menu"
-                                                style={{
-                                                    height: item === 'home' ? itemSize : '0px',
-                                                }}
-                                            >
-                                                <li>
-                                                    <Link to="/">Home 1</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-two">Home 2</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-three">Home 3</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-four">Home 4</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-five">Home 5</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-six">Home 6</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-seven">Home 7</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/home-eight">Home 8</Link>
-                                                </li>
-                                            </ul>
+                                                    <Link to="/">Home</Link>
                                         </li>
                                         <li
                                             onClick={(e) => handler(e, 'service')}
@@ -87,48 +53,9 @@ function Drawer({ drawer, action }) {
                                             id="pages"
                                             className="menu-item-has-children active"
                                         >
-                                            <span className="menu-expand">
-                                                <i className="fa fa-angle-down"></i>
-                                            </span>
-                                            <a href="#">Pages</a>
-                                            <ul
-                                                className="sub-menu"
-                                                style={{
-                                                    height: item === 'pages' ? itemSize : '0px',
-                                                }}
-                                            >
-                                                <li>
-                                                    <Link to="/about-us">About Us</Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link to="/error">Error</Link>
-                                                </li>
-                                            </ul>
+                                            <Link to="/about-us">About Us</Link>
                                         </li>
-                                        <li
-                                            onClick={(e) => handler(e, 'news')}
-                                            id="news"
-                                            className="menu-item-has-children active"
-                                        >
-                                            <span className="menu-expand">
-                                                <i className="fa fa-angle-down"></i>
-                                            </span>
-                                            <a href="#">News</a>
-                                            <ul
-                                                className="sub-menu"
-                                                style={{
-                                                    height: item === 'news' ? itemSize : '0px',
-                                                }}
-                                            >
-                                                <li>
-                                                    <Link to="/news">news page</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/news/single-news">Single News</Link>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                       
                                         <li
                                             onClick={(e) => handler(e, 'contact')}
                                             id="contact"
@@ -167,18 +94,17 @@ function Drawer({ drawer, action }) {
                                         <li>
                                             <a href="#">
                                                 <i className="fal fa-envelope"></i>{' '}
-                                                support@appie.com
+                                                visualsfred@gmail.com
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fal fa-phone"></i> +(642) 342 762 44
+                                                <i className="fal fa-phone"></i> +234 703 000 0582
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fal fa-map-marker-alt"></i> 442 Belle
-                                                Terre St Floor 7, San Francisco, AV 4206
+                                                <i className="fal fa-map-marker-alt"></i> Kwara State Univeristy, Malete, Kwara
                                             </a>
                                         </li>
                                     </ul>

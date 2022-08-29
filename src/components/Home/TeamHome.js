@@ -71,7 +71,7 @@ function TeamHome() {
                                 </div>
                                 <div className="content text-center">
                                     <h5 className="title">Oyewole Kehinde Abdulateef</h5>
-                                    <span>C19D/47CS/01079</span>
+                                    <span>19D/47CS/01079</span>
                                 </div>
                             </div>
                         </div>
