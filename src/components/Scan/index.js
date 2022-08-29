@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop';
 import FooterHome from '../Home/FooterHome';
 import Drawer from '../Mobile/Drawer';
 import HeaderHome from '../Home/HeaderHome';
-import HeroNews from '../News/HeroNews';
+import HeroNews from '../Contact/HeroNews';
 import Forms from './Forms';
 
 function Scan() {
